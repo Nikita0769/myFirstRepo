@@ -1,0 +1,73 @@
+input[type=text] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 98%; /* width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+  }
+  
+
+  /* card  */
+
+  .card {
+    border-radius: 5px;
+    background-color: white;
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    }
+/* to align card */
+  .myclass{
+      padding-left: 50px;
+
+  }
+
+  .card1{
+      text-align: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    background-color:white;
+    border-radius: 4px; /* Rounded borders */
+
+  }
+
+
+ 
+  
+/* for validation */
+input.ng-touched.ng-invalid{
+  border:1px solid red;
+  box-shadow:0 0 22px rgb(114, 80, 80) inset;
+}
+
+.container{
+  text-align: center;
+  border: 1px white inset ;
+  background-color: wheat;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right:30px;
+  padding-top: 40px;
+  background-color: whitesmoke;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-style: double;
+  border-width: 15px;
+  border-color: white;
+}
+
+.header{
+  padding-bottom: 60px;
+  
+}
